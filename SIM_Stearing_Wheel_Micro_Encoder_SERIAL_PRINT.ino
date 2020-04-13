@@ -49,7 +49,7 @@ void loop() {
     Serial.println(encoder);
   }
   delay(10);
-  //potencjometr gaz----------- 
+  //potentiometer throttle----------- 
   int ThrottlePot = analogRead(A0);
   Joystick.setYAxis(ThrottlePot);
 }
